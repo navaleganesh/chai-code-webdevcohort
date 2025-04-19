@@ -1,0 +1,4 @@
+Call Stack, Heap , Micro Queue & Task Queue  --> Event Loop
+Global Context Execution
+Hoisting
+Bind, Call & this
