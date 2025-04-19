@@ -1,13 +1,20 @@
 // console.log("Hello", Age);
-
 // var Age = 35;
-
 // console.log("Hello", Age);
 
 /* 
 Above program output is
 Hello undefined
 Hello : 35
+*/
+
+
+// console.log("Hello", Age);
+// var Age = 35;
+
+/*
+Above programme output is:
+Hello undefined    // Here is no Temoreal Dead Zone(TDZ)
 */
 
 
@@ -55,8 +62,8 @@ ReferenceError: Age is not defined
 
 
 
-console.log("Hello", Age);
-let Age = 35;  // DEAD Zone
+// console.log("Hello", Age);
+// let Age = 35;  // DEAD Zone
 /*
 Above programme output is:
 ReferenceError: Cannot access 'Age' before initialization
@@ -64,3 +71,7 @@ ReferenceError: Cannot access 'Age' before initialization
 
 
 /* let & const hoisting hote hai magar access nahi kar paate due to Temporal Dead Zone(TDZ) */
+
+
+
+

@@ -24,7 +24,7 @@ let config = function(){
 }();
 
 
-
+/* 'this' keyword, call() & bind() method */
 let person1 = {
     name: "ravi",
     greet:function(){
@@ -34,7 +34,6 @@ let person1 = {
 
 console.log(person1.greet); // o/p: [Function: greet]
 console.log(person1.greet()); // o/p: Hello hitesh
-
 
 
 let person2 = {
