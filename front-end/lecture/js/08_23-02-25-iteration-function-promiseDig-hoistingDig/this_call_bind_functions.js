@@ -40,11 +40,12 @@ let person2 = {
     name: 'hitesh',
 }
 
-// person1.greet.call(person2)  //o/p: Hello hitesh  //call acutally call karta hai sidha. But Bind return a new function
+person1.greet.call(person2)  //o/p: Hello hitesh  //call acutally call karta hai sidha. But Bind return a new function
 
 person1.greet.bind(person2) // No output
 const bindGreet = person1.greet.bind(person2); //Here bind() return new function
 console.log(bindGreet); // o/p: [Function: bound greet]
 console.log(bindGreet()); // o/p: Hello hitesh
+
 
 
