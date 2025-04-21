@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+
+<body>
+    <ul id="items"></ul>
+    <script>
+        const ul = document.getElementById('items');
+        const url = 'https://api.freeapi.app/api/v1/public/randomproducts';
+        fetch(url)
+            .then((response) => response.json())
+            .then((obj) => {
+                const products = obj.data.data
+                console.log(products);
+                products.forEach((item) => {
+                    const li = document.createElement('li');
+                    li.innerText = item.title
+                    ul.appendChild(li)
+                })
+                    .catch((err) => {
+                        console.log('Error converting json');
+
+                    })
+            })
+           
+            .catch (() => { })
+            .finally(() => { })
+    </script>
+</body>
+
+</html>
