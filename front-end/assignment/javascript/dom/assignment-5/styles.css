@@ -12,7 +12,10 @@ body {
     margin-bottom: 30px;
     color: #2c3e50;
   }
-  
+  ul{
+    list-style:none;
+    padding-left: 0;
+  }
   .carousel-container {
     position: relative;
     width: 100%;
@@ -117,4 +120,6 @@ body {
   .auto-play-button:hover {
     background-color: #2980b9;
   }
-  
+  .indiActive{
+    background-color: #3498db;
+  }
