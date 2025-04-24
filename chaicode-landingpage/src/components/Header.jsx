@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <header className="fixed top left-0 right-0 z-50 transition-all duration-300 bg-transparent">
+    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
         <div className='container mx-auto px-4 py-4'>
             <div className='flex items-center justify-between'>
                 <a className='flex items-center gap-2' href="/">
