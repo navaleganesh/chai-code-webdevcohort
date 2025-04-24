@@ -8,7 +8,7 @@ function Header() {
                 <a className='flex items-center gap-2' href="/">
                     <div></div>
                     <div className='h-8 transform scale-[0.99601]'>
-                    <img alt="ChaiCode" width="180" height="22" class="h-full w-auto" src="https://www.chaicode.com/chaicode-white.svg" />
+                    <img alt="ChaiCode" width="180" height="22" className="h-full w-auto" src="https://www.chaicode.com/chaicode-white.svg" />
                     </div>
                 </a>
                 <nav className='hidden md:flex items-center space-x-8'>
